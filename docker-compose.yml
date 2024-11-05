@@ -10,6 +10,7 @@ services:
       - "4000:4000"
     environment:
       - DB_URL=postgresql://postgres:postgres@flask_db:5432/postgres
+      - DD_AGENT_HOST=datadog
     depends_on:
       - flask_db
   flask_db:
@@ -21,8 +22,21 @@ services:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_DB=postgres
+      - DD_AGENT_HOST=datadog
     volumes:
       - pgdata:/var/lib/postgresql/data
+  datadog:
+    container_name: dd-agent
+    image: "gcr.io/datadoghq/agent:latest"
+    environment:
+       - DD_API_KEY=${API_KEY}
+       - DD_SITE=datadoghq.com  # Default. Change to eu.datadoghq.com, us3.datadoghq.com, us5.datadoghq.com as appropriate for your org
+       - DD_APM_ENABLED=true    # Enable APM
+    volumes:
+       - /var/run/docker.sock:/var/run/docker.sock:ro
+       - /proc/:/host/proc/:ro
+       - /sys/fs/cgroup/:/host/sys/fs/cgroup:ro
+
 
 volumes:
   pgdata: {}

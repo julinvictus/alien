@@ -43,15 +43,23 @@ director name: Name of the movie's director
 ✅ delete a movie
 
 ---
+App instrumented with Datadog APM
+https://docs.datadoghq.com/tracing/
 
 ## Get started
 
 `docker compose up -d flask_db`
 
+(When needed to create for the first time)
+
 `docker ps -a`
+
+(Use this to see all containers running - and if used the above, to see if container was created)
 
 `docker compose build`
 
-`docker compose up flask_app` OR `docker compose up –builldflask_app` (to rebuild img, every time code changes)
+(Builds the container)
+
+`docker compose up flask_app datadog` OR `docker compose up --build flask_app datadog` (to rebuild img, every time code changes)
 
 

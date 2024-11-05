@@ -1,0 +1,93 @@
+[
+    {
+        "director name": "Jean-Pierre Jeunet",
+        "hero actor name": "Sigourney Weaver",
+        "hero name": "Ellen Ripley",
+        "id": 1,
+        "movie name": "Alien: Resurrection",
+        "planet name": "Earth",
+        "release year": 1997,
+        "spaceship name": "Auriga",
+        "synthetic name": "Annalee Call",
+        "xenomorph name": "The Newborn",
+        "year": 2381
+    },
+    {
+        "director name": "David Fincher",
+        "hero actor name": "Sigourney Weaver",
+        "hero name": "Ellen Ripley",
+        "id": 2,
+        "movie name": "Alien 3",
+        "planet name": "Fiorina 161",
+        "release year": 1992,
+        "spaceship name": "Sulaco",
+        "synthetic name": "Bishop",
+        "xenomorph name": "Runner",
+        "year": 2179
+    },
+    {
+        "director name": "James Cameron",
+        "hero actor name": "Sigourney Weaver",
+        "hero name": "Ellen Ripley",
+        "id": 3,
+        "movie name": "Aliens",
+        "planet name": "LV-426",
+        "release year": 1986,
+        "spaceship name": "Nostromo",
+        "synthetic name": "Ash",
+        "xenomorph name": "Xenomorph",
+        "year": 2179
+    },
+    {
+        "director name": "Fede Álvarez",
+        "hero actor name": "Cailee Spaeny",
+        "hero name": "Rain Carradine",
+        "id": 4,
+        "movie name": "Alien: Romulus",
+        "planet name": "Jackson's Star",
+        "release year": 2024,
+        "spaceship name": "Romulus",
+        "synthetic name": "Andy",
+        "xenomorph name": "The Offspring",
+        "year": 2142
+    },
+    {
+        "director name": "Ridley Scott",
+        "hero actor name": "Sigourney Weaver",
+        "hero name": "Ellen Ripley",
+        "id": 5,
+        "movie name": "Alien",
+        "planet name": "LV-426",
+        "release year": 1979,
+        "spaceship name": "Nostromo",
+        "synthetic name": "Ash",
+        "xenomorph name": "The Alien",
+        "year": 2122
+    },
+    {
+        "director name": "Ridley Scott",
+        "hero actor name": "Noomi Rapace",
+        "hero name": "Elizabeth Shaw",
+        "id": 6,
+        "movie name": "Alien: Covenant",
+        "planet name": "Planet 4",
+        "release year": 2017,
+        "spaceship name": "Covenant",
+        "synthetic name": "Walter",
+        "xenomorph name": "Neomorph",
+        "year": 2104
+    },
+    {
+        "director name": "Ridley Scott",
+        "hero actor name": "Noomi Rapace",
+        "hero name": "Elizabeth Shaw",
+        "id": 7,
+        "movie name": "Prometheus",
+        "planet name": "LV-223",
+        "release year": 2012,
+        "spaceship name": "Prometheus",
+        "synthetic name": "David",
+        "xenomorph name": "Deacon",
+        "year": 2089
+    }
+]

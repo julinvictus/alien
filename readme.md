@@ -43,8 +43,11 @@ director name: Name of the movie's director
 ✅ delete a movie
 
 ---
-App instrumented with Datadog APM
+App instrumented with:
+Datadog APM
 https://docs.datadoghq.com/tracing/
+Datadog Logs (for Docker logs)
+https://docs.datadoghq.com/logs/
 
 ## Get started
 
